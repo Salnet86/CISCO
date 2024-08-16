@@ -1,0 +1,31 @@
+enable
+
+
+configure terminal
+
+
+interface FastEthernet 0/0
+
+
+no shutdown
+
+
+ip address
+
+
+172.128.120.2  255.0.0.0
+
+
+exit
+
+
+interface fastEthernet 1/0
+
+
+no shutdown
+
+
+ip address 172.128.120.3  255.0.0.0
+
+
+show ip route
